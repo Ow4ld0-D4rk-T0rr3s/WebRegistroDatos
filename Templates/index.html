@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="ruta/al/icono/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css" />
     <title>Registro de Alumnos/Profesores</title>
-</head>
-<body>
-    <h1>Bienvenido al Registro de Datos</h1>
-    <p>Por favor, seleccione una opción:</p>
-    <form action="/alumnos" method="get">
-        <button type="submit">Alumnos</button>
-    </form>
-    <form action="/profesores" method="get">
-        <button type="submit">Profesores</button>
-    </form>
-</body>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Bienvenido al Registro de Datos</h1>
+    </header>
+    <main>
+      <section>
+        <p class="subtitle">Por favor, seleccione una opción:</p>
+      </section>
+      <section>
+        <div class="button-group">
+          <form action="/alumnos" method="get">
+            <button class="button" type="submit">Alumnos</button>
+          </form>
+          <form action="/profesores" method="get">
+            <button class="button" type="submit">Profesores</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
+    </footer>
+  </body>
 </html>
